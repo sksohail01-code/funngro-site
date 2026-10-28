@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: funngro-site
+    buildCommand: echo no build
+    staticPublishPath: .
